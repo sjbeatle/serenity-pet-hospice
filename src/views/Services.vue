@@ -1,23 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Serenity Pet Hospice Logo" src="../assets/logo.png" class="logo">
+    <img alt="Vue logo" src="../assets/logo.png" class="logo">
     <Nav />
-    <HelloWorld msg="Hospice, Palliative, and Home Care" />
+    <ServicesContent />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue';
 import Nav from '@/components/Nav.vue';
+import ServicesContent from '@/components/ServicesContent.vue';
 
 @Component({
   components: {
-    HelloWorld,
+    ServicesContent,
     Nav,
   },
 })
-export default class Home extends Vue {}
+export default class Mission extends Vue {}
 </script>
 
 <style lang="scss" scoped>

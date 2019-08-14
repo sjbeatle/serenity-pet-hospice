@@ -14,6 +14,14 @@
       Our site is currently under construction but please
       continue to check back for updates. Thank you!
     </p>
+    <br />
+    <p>
+      <a href="https://www.iaahpc.org/" target="_blank"><img alt="IAAHPC logo" class="vendor" src="../assets/IAAHPC.png"></a>
+      <br />
+      <br />
+      <br />
+      <a href="https://www.navta.net/" target="_blank"><img alt="NAVTA logo" class="vendor" src="../assets/NAVTA.png"></a>
+    </p>
   </div>
 </template>
 
@@ -42,5 +50,10 @@ a {
 .telephone {
   color: #2c3e50;
   text-decoration: none;
+}
+
+.vendor {
+  max-width: 100%;
+  margin: 0 auto;
 }
 </style>
