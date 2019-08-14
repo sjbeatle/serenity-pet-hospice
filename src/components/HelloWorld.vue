@@ -1,6 +1,15 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <div class="hr"></div>
+    <h1>Hospice, Palliative, and Home Care</h1>
+    <h4>"For your pet, through your family vet"</h4>
+    <h2><a href="tel:2012896583" class="telephone">201-289-6583</a></h2>
+    <h3><a href="mailto:info@serenitypethospice.org" class="telephone">info@serenitypethospice.org</a></h3>
+    <div class="hr"></div>
+    <p>
+      <strong>Serving the Hudson Valley &amp; Northern New Jersey</strong>
+    <p>
+    <div class="hr"></div>
     <p>
       Our site is currently under construction but please
       continue to check back for updates. Thank you!
@@ -19,7 +28,19 @@ export default class HelloWorld extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.hr {
+  font-size: 0;
+  line-height: 0;
+  height: 1px;
+  background-color: #0076b3;
+  margin: 2rem 0;
+}
 a {
   color: #0076b3;
+}
+
+.telephone {
+  color: #2c3e50;
+  text-decoration: none;
 }
 </style>
