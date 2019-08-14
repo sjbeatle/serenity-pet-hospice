@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">'
+  <div class="nav">
     <router-link to="/">Home</router-link> &nbsp;&bull;&nbsp;
     <router-link to="mission">Mission</router-link> &nbsp;&bull;&nbsp;
     <router-link to="services">Services</router-link>
